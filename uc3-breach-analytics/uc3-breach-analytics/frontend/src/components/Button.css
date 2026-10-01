@@ -1,0 +1,6 @@
+.dfz-button { display: inline-flex; align-items: center; gap: 0.5rem; border: none; border-radius: var(--dfz-radius-button); padding: 0.65rem 1.1rem; font-size: 0.9rem; font-weight: 600; cursor: pointer; transition: transform 0.15s var(--dfz-ease), box-shadow 0.15s var(--dfz-ease); }
+.dfz-button--primary { background: var(--dfz-gradient); color: #14191d; }
+.dfz-button--primary:hover:not(:disabled) { box-shadow: 0 6px 16px rgba(252,121,0,0.35); transform: translateY(-1px); }
+.dfz-button--secondary { background: transparent; color: var(--dfz-text); border: 1px solid var(--dfz-border); }
+.dfz-button--secondary:hover:not(:disabled) { border-color: var(--dfz-orange); color: var(--dfz-orange); }
+.dfz-button:disabled { opacity: 0.5; cursor: not-allowed; }

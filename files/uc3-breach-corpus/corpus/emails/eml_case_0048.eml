@@ -1,0 +1,33 @@
+From: casey@datafactz-client.example
+To: mary.jackson@inboxnet.example
+Subject: Case Notes
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Per our records, Mary Jackson (DOB 1979-08-20) contacted the office regarding=
+ an account update. The address on file is 2828 Maple St, Salem, OR 65162, an=
+d the best contact number is 555-855-5228.
+
+ID verification for Mary Jackson: driver's license OR9431241 on file.
+
+Travel authorization request from Mary Jackson, passport G44859736.
+
+Payment method on file for Mary Jackson: card ending 4163 (full: 4111-0267-18=
+68-4163).
+
+Support ticket =E2=80=94 user Mary Jackson requested a credential reset. On f=
+ile: mary.jackson@inboxnet.example:pw_hash_643399
+
+555-855-5228
+
+mary.jackson@inboxnet.example
+
+2828 Maple St, Salem, OR 65162
+
+TEST RECORD =E2=80=94 John Doe, 000-00-0000, DO NOT USE IN PRODUCTION
+
+Regards,
+Casey Nguyen
+DataFactZ Client Services
+555-100-2000 | casey@datafactz-client.example

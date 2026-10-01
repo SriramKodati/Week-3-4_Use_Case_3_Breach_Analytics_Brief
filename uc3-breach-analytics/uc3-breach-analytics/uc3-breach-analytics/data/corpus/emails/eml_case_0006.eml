@@ -1,0 +1,30 @@
+From: jordan@datafactz-client.example
+To: erica@webmail.example
+Subject: Case Notes
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Per our records, Eric Adams (SSN 937-38-8867, DOB 1954-12-13) contacted the o=
+ffice regarding an account update. The address on file is 2689 Birch Ct, Colu=
+mbus, OH 21211, and the best contact number is 555-492-6852.
+
+ID verification for Eric Adams: driver's license OH3248226 on file.
+
+Travel authorization request from Eric Adams, passport G35326502.
+
+Support ticket =E2=80=94 user Eric Adams requested a credential reset. On fil=
+e: erica@webmail.example:pw_hash_883289
+
+555-492-6852
+
+erica@webmail.example
+
+2689 Birch Ct, Columbus, OH 21211
+
+TEST RECORD =E2=80=94 John Doe, 000-00-0000, DO NOT USE IN PRODUCTION
+
+Regards,
+Jordan Blake
+DataFactZ Client Services
+555-100-2000 | jordan@datafactz-client.example

@@ -1,0 +1,28 @@
+From: morgan@datafactz-client.example
+To: edward.mitchell@mailbox.example
+Subject: Case Notes
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Edward Mitchell submitted a request on behalf of the household. We verified i=
+dentity using the information provided, including a callback to 555-323-4757 =
+and confirmation of the mailing address at 3182 Elm St, Fairview, NJ 28200.
+
+ID verification for Edward Mitchell: driver's license NJ6323292 on file.
+
+Support ticket =E2=80=94 user Edward Mitchell requested a credential reset. O=
+n file: edward.mitchell@mailbox.example:pw_hash_595491
+
+555-323-4757
+
+edward.mitchell@mailbox.example
+
+3182 Elm St, Fairview, NJ 28200
+
+TEST RECORD =E2=80=94 John Doe, 000-00-0000, DO NOT USE IN PRODUCTION
+
+Regards,
+Morgan Ellis
+DataFactZ Client Services
+555-100-2000 | morgan@datafactz-client.example

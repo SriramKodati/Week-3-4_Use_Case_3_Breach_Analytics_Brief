@@ -1,0 +1,9 @@
+shared_name,person_id_a,person_id_b,should_merge,distinguishing_fields
+Donald Young,P0156,P0157,False,"dob, ssn, address all differ"
+Nicholas Thompson,P0158,P0159,False,"dob, ssn, address all differ"
+Patricia Jones,P0160,P0161,False,"dob, ssn, address all differ"
+Thomas Roberts,P0162,P0163,False,"dob, ssn, address all differ"
+Emily Nguyen,P0164,P0165,False,"dob, ssn, address all differ"
+Stephen Gonzalez,P0166,P0167,False,"dob, ssn, address all differ"
+Cynthia Robinson,P0168,P0169,False,"dob, ssn, address all differ"
+Sandra Rodriguez,P0170,P0171,False,"dob, ssn, address all differ"

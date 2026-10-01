@@ -1,0 +1,487 @@
+{
+  "extraction_recall": {
+    "checked": 204,
+    "found": 196,
+    "misses": [
+      {
+        "filename": "variant_note_0001.txt",
+        "category": "variant",
+        "planted_value": "R. Perez",
+        "extracted_values": [
+          "1969-03-22",
+          "3878 Elm St, Arlington, VA 53187",
+          "3878 Elm St, Arlington, VA 53187"
+        ]
+      },
+      {
+        "filename": "variant_note_0009.txt",
+        "category": "variant",
+        "planted_value": "Hernandez, Cynthia",
+        "extracted_values": [
+          "1996-10-10",
+          "Cynthia Hernandez",
+          "2256 Park Rd, Madison, WI 86309"
+        ]
+      },
+      {
+        "filename": "variant_note_0015.txt",
+        "category": "variant",
+        "planted_value": "T. Scott",
+        "extracted_values": [
+          "1955-11-11",
+          "4394 Sunset Blvd, Franklin, TN 27433"
+        ]
+      },
+      {
+        "filename": "variant_note_0018.txt",
+        "category": "variant",
+        "planted_value": "Mitchell, Andrew",
+        "extracted_values": [
+          "1958-06-06",
+          "Andrew Mitchell",
+          "7669 Birch Ct, Fairview, NJ 29758"
+        ]
+      },
+      {
+        "filename": "variant_note_0021.txt",
+        "category": "variant",
+        "planted_value": "A. Gonzalez",
+        "extracted_values": [
+          "1947-04-02",
+          "3685 Maple St, Madison, WI 69372"
+        ]
+      },
+      {
+        "filename": "variant_note_0026.txt",
+        "category": "variant",
+        "planted_value": "Ramirez, Benjamin",
+        "extracted_values": [
+          "1964-03-16",
+          "2472 Lakeview Dr, Riverside, CA 44228",
+          "Benjamin Ramirez",
+          "2472 Lakeview Dr, Riverside, CA 44228"
+        ]
+      },
+      {
+        "filename": "variant_note_0031.txt",
+        "category": "variant",
+        "planted_value": "Chris Thompson",
+        "extracted_values": [
+          "1952-10-23",
+          "9307 Lakeview Dr, Riverside, CA 38382",
+          "9307 Lakeview Dr, Riverside, CA 38382"
+        ]
+      },
+      {
+        "filename": "variant_note_0042.txt",
+        "category": "variant",
+        "planted_value": "R. King",
+        "extracted_values": [
+          "1957-05-18",
+          "2501 Sunset Blvd, Fairview, NJ 70796"
+        ]
+      }
+    ]
+  },
+  "entity_linking": {
+    "checked": 53,
+    "correct": 30,
+    "mismatches": [
+      {
+        "filename": "variant_note_0001.txt",
+        "manifest_person_id": "P0129",
+        "status": "resolution_insufficient_signal",
+        "actual_person_id": null,
+        "expected_person_id (from primary doc)": "9343db53-d3d9-4b50-a717-5a0f613b6b7b"
+      },
+      {
+        "filename": "variant_note_0004.txt",
+        "manifest_person_id": "P0036",
+        "status": "needs_adjudication",
+        "actual_person_id": "c0b3178a-e28c-4257-aa4b-44cdb2d15df6",
+        "expected_person_id (from primary doc)": null
+      },
+      {
+        "filename": "variant_note_0005.txt",
+        "manifest_person_id": "P0036",
+        "status": "multi_person_skipped",
+        "actual_person_id": null,
+        "expected_person_id (from primary doc)": null
+      },
+      {
+        "filename": "variant_note_0006.txt",
+        "manifest_person_id": "P0043",
+        "status": "resolved",
+        "actual_person_id": "32e754a2-8a19-4d37-adeb-8b7696fccacc",
+        "expected_person_id (from primary doc)": null
+      },
+      {
+        "filename": "variant_note_0007.txt",
+        "manifest_person_id": "P0043",
+        "status": "resolved",
+        "actual_person_id": "32e754a2-8a19-4d37-adeb-8b7696fccacc",
+        "expected_person_id (from primary doc)": null
+      },
+      {
+        "filename": "variant_note_0008.txt",
+        "manifest_person_id": "P0130",
+        "status": "resolved",
+        "actual_person_id": "65f3926f-475d-4e03-b93a-065fb58c7af7",
+        "expected_person_id (from primary doc)": null
+      },
+      {
+        "filename": "variant_note_0009.txt",
+        "manifest_person_id": "P0130",
+        "status": "resolved",
+        "actual_person_id": "65f3926f-475d-4e03-b93a-065fb58c7af7",
+        "expected_person_id (from primary doc)": null
+      },
+      {
+        "filename": "variant_note_0015.txt",
+        "manifest_person_id": "P0118",
+        "status": "resolution_insufficient_signal",
+        "actual_person_id": null,
+        "expected_person_id (from primary doc)": "1033a2ac-c052-4271-888e-8644e5b594e0"
+      },
+      {
+        "filename": "variant_note_0021.txt",
+        "manifest_person_id": "P0066",
+        "status": "resolution_insufficient_signal",
+        "actual_person_id": null,
+        "expected_person_id (from primary doc)": "06fb1883-de89-469e-87e2-d63693000095"
+      },
+      {
+        "filename": "variant_note_0031.txt",
+        "manifest_person_id": "P0011",
+        "status": "resolution_insufficient_signal",
+        "actual_person_id": null,
+        "expected_person_id (from primary doc)": "b83da243-70e4-4f16-91ae-1bc701a708a4"
+      },
+      {
+        "filename": "variant_note_0035.txt",
+        "manifest_person_id": "P0088",
+        "status": "resolved",
+        "actual_person_id": "679a0310-14ae-4c15-8124-1f6f6988d663",
+        "expected_person_id (from primary doc)": "68f64443-28b6-4278-a4e7-4cbb937f3e97"
+      },
+      {
+        "filename": "variant_note_0038.txt",
+        "manifest_person_id": "P0137",
+        "status": "resolved",
+        "actual_person_id": "6e2f4bd0-4d6b-4aef-931c-2c703db39182",
+        "expected_person_id (from primary doc)": "3d664e5c-4a23-429e-a5d8-85137b128b23"
+      },
+      {
+        "filename": "variant_note_0039.txt",
+        "manifest_person_id": "P0137",
+        "status": "needs_adjudication",
+        "actual_person_id": "6e2f4bd0-4d6b-4aef-931c-2c703db39182",
+        "expected_person_id (from primary doc)": "3d664e5c-4a23-429e-a5d8-85137b128b23"
+      },
+      {
+        "filename": "variant_note_0040.txt",
+        "manifest_person_id": "P0084",
+        "status": "resolved",
+        "actual_person_id": "cf67fc1f-c41e-4568-87e7-2cf04690d0cb",
+        "expected_person_id (from primary doc)": null
+      },
+      {
+        "filename": "variant_note_0041.txt",
+        "manifest_person_id": "P0084",
+        "status": "needs_adjudication",
+        "actual_person_id": "cf67fc1f-c41e-4568-87e7-2cf04690d0cb",
+        "expected_person_id (from primary doc)": null
+      },
+      {
+        "filename": "variant_note_0042.txt",
+        "manifest_person_id": "P0070",
+        "status": "resolution_insufficient_signal",
+        "actual_person_id": null,
+        "expected_person_id (from primary doc)": null
+      },
+      {
+        "filename": "variant_note_0043.txt",
+        "manifest_person_id": "P0070",
+        "status": "resolved",
+        "actual_person_id": "00386c52-e552-4b75-9b99-75286c2cfd30",
+        "expected_person_id (from primary doc)": null
+      },
+      {
+        "filename": "variant_note_0044.txt",
+        "manifest_person_id": "P0114",
+        "status": "resolved",
+        "actual_person_id": "0d2779a8-7db0-4644-b7fd-5272ba75d30c",
+        "expected_person_id (from primary doc)": "6532c3fa-772c-4370-9932-7e8a3ac9e06f"
+      },
+      {
+        "filename": "variant_note_0045.txt",
+        "manifest_person_id": "P0114",
+        "status": "needs_adjudication",
+        "actual_person_id": "0d2779a8-7db0-4644-b7fd-5272ba75d30c",
+        "expected_person_id (from primary doc)": "6532c3fa-772c-4370-9932-7e8a3ac9e06f"
+      },
+      {
+        "filename": "variant_note_0046.txt",
+        "manifest_person_id": "P0012",
+        "status": "resolved",
+        "actual_person_id": "e8b4a87e-131b-459c-823c-f5059b3e5640",
+        "expected_person_id (from primary doc)": null
+      },
+      {
+        "filename": "variant_note_0047.txt",
+        "manifest_person_id": "P0012",
+        "status": "needs_adjudication",
+        "actual_person_id": "e8b4a87e-131b-459c-823c-f5059b3e5640",
+        "expected_person_id (from primary doc)": null
+      },
+      {
+        "filename": "variant_note_0050.txt",
+        "manifest_person_id": "P0092",
+        "status": "resolved",
+        "actual_person_id": "14868fab-bed4-4445-9ddf-73785a18162f",
+        "expected_person_id (from primary doc)": "68f64443-28b6-4278-a4e7-4cbb937f3e97"
+      },
+      {
+        "filename": "variant_note_0051.txt",
+        "manifest_person_id": "P0092",
+        "status": "resolved",
+        "actual_person_id": "14868fab-bed4-4445-9ddf-73785a18162f",
+        "expected_person_id (from primary doc)": "68f64443-28b6-4278-a4e7-4cbb937f3e97"
+      }
+    ]
+  },
+  "false_positives": {
+    "checked": 58,
+    "flagged": 33,
+    "flagged_docs": [
+      {
+        "filename": "eml_case_0002.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "8c27d437-79a1-4d54-8213-d387e875b848"
+      },
+      {
+        "filename": "eml_case_0003.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "ad6f6d6d-f8a9-41be-8992-1759509bebf9"
+      },
+      {
+        "filename": "docx_case_0007.docx",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "c3136090-4133-4a64-bd1a-dcbcfa247c1f"
+      },
+      {
+        "filename": "eml_case_0008.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "40df048c-0e42-4bd9-9bb1-9d63dd934448"
+      },
+      {
+        "filename": "pdf_case_0010.pdf",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "bf63d5e6-63d0-4fb7-ad34-efc5521cf060"
+      },
+      {
+        "filename": "eml_case_0010.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "bdc14a1b-7f1d-4a2f-97fa-4fd3af2a221d"
+      },
+      {
+        "filename": "pdf_case_0011.pdf",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "68f64443-28b6-4278-a4e7-4cbb937f3e97"
+      },
+      {
+        "filename": "eml_case_0012.eml",
+        "negative_type": null,
+        "status": "needs_adjudication",
+        "person_id": "3284066c-d64b-449f-8c26-fda1f4da78db"
+      },
+      {
+        "filename": "eml_case_0014.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "83ebd413-f8c7-4bae-8a64-8acfebaa73fa"
+      },
+      {
+        "filename": "eml_case_0015.eml",
+        "negative_type": null,
+        "status": "needs_adjudication",
+        "person_id": "34272214-1e2e-4659-a5be-ab19cbb6f55d"
+      },
+      {
+        "filename": "eml_case_0016.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "11cceee7-bb58-44cf-a9e9-d1bbe1fb230e"
+      },
+      {
+        "filename": "eml_case_0017.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "04ff7b8c-052f-4d6e-b8bc-9440114a4cc1"
+      },
+      {
+        "filename": "eml_case_0019.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "fb942f03-52df-4e8a-9b46-667b70d105f2"
+      },
+      {
+        "filename": "eml_case_0020.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "fa56a2fd-5a3e-43ad-9488-4b2e9a4f7216"
+      },
+      {
+        "filename": "eml_case_0024.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "20e4d866-4cf4-4e8f-aceb-947d1381478a"
+      },
+      {
+        "filename": "eml_case_0025.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "9343db53-d3d9-4b50-a717-5a0f613b6b7b"
+      },
+      {
+        "filename": "eml_case_0029.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "c0b3178a-e28c-4257-aa4b-44cdb2d15df6"
+      },
+      {
+        "filename": "eml_case_0032.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "095b8c24-55fd-42e4-86e4-b841d4979bd7"
+      },
+      {
+        "filename": "eml_case_0033a.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "4ad4368d-2b57-498e-b6db-b2fa1b516bc6"
+      },
+      {
+        "filename": "eml_case_0033b.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "a408bc00-9305-420b-bfbf-ccfa05976e6e"
+      },
+      {
+        "filename": "eml_case_0034.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "ef189656-af99-46d4-b85e-5359947b939e"
+      },
+      {
+        "filename": "pdf_case_0035.pdf",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "2b6fddcd-d1e4-408a-9bec-d3ac8058560c"
+      },
+      {
+        "filename": "eml_case_0035.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "a5316a5e-7dc3-402a-93fc-bf95f1fb7f47"
+      },
+      {
+        "filename": "pdf_case_0039.pdf",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "4067768c-8b8d-4f83-b555-153dd88ea2ed"
+      },
+      {
+        "filename": "docx_case_0039.docx",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "a9ad08c9-5e86-4218-aea0-fec6e68e88cb"
+      },
+      {
+        "filename": "eml_case_0039.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "04b2b8b4-77f6-4093-885d-afc069db2670"
+      },
+      {
+        "filename": "eml_case_0040.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "41a63a7b-4014-4248-bd9c-84adab7b21b5"
+      },
+      {
+        "filename": "eml_case_0045.eml",
+        "negative_type": null,
+        "status": "needs_adjudication",
+        "person_id": "c8a8667c-50cf-4d6c-a7b4-484557f69e9b"
+      },
+      {
+        "filename": "eml_case_0046.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "fb46cb3e-719f-4641-b1aa-d609aba64205"
+      },
+      {
+        "filename": "eml_case_0046.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "fb46cb3e-719f-4641-b1aa-d609aba64205"
+      },
+      {
+        "filename": "eml_case_0047.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "055813fc-5596-4a95-8a4f-59e7d054121b"
+      },
+      {
+        "filename": "eml_case_0051.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "8c27d437-79a1-4d54-8213-d387e875b848"
+      },
+      {
+        "filename": "eml_case_0051.eml",
+        "negative_type": null,
+        "status": "resolved",
+        "person_id": "8c27d437-79a1-4d54-8213-d387e875b848"
+      }
+    ]
+  },
+  "quarantine_accuracy": {
+    "checked": 17,
+    "correct": 13,
+    "mismatches": [
+      {
+        "filename": "sheet_photo_0.png",
+        "expected_reason": "image_of_spreadsheet_unreliable_ocr",
+        "actual_reason": "low_confidence_ocr",
+        "actual_status": "quarantined"
+      },
+      {
+        "filename": "sheet_photo_1.png",
+        "expected_reason": "image_of_spreadsheet_unreliable_ocr",
+        "actual_reason": "low_confidence_ocr",
+        "actual_status": "quarantined"
+      },
+      {
+        "filename": "sheet_photo_2.png",
+        "expected_reason": "image_of_spreadsheet_unreliable_ocr",
+        "actual_reason": "low_confidence_ocr",
+        "actual_status": "quarantined"
+      },
+      {
+        "filename": "sheet_photo_3.png",
+        "expected_reason": "image_of_spreadsheet_unreliable_ocr",
+        "actual_reason": "low_confidence_ocr",
+        "actual_status": "quarantined"
+      }
+    ]
+  }
+}

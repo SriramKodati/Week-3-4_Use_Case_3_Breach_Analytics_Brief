@@ -1,0 +1,629 @@
+{
+  "extraction_recall": {
+    "total_checked": 1767,
+    "total_hit": 1713,
+    "by_category": {
+      "name_and_ssn": {
+        "hit": 189,
+        "total": 189
+      },
+      "phone": {
+        "hit": 298,
+        "total": 298
+      },
+      "email": {
+        "hit": 295,
+        "total": 298
+      },
+      "address": {
+        "hit": 143,
+        "total": 143
+      },
+      "driver_license": {
+        "hit": 74,
+        "total": 74
+      },
+      "financial_account": {
+        "hit": 61,
+        "total": 61
+      },
+      "login_credential": {
+        "hit": 55,
+        "total": 55
+      },
+      "medical": {
+        "hit": 43,
+        "total": 43
+      },
+      "passport": {
+        "hit": 42,
+        "total": 42
+      },
+      "ssn_only_partial": {
+        "hit": 12,
+        "total": 12
+      },
+      "name_only_partial": {
+        "hit": 10,
+        "total": 12
+      },
+      "name_variant": {
+        "hit": 48,
+        "total": 57
+      },
+      "bulk_export_row": {
+        "hit": 171,
+        "total": 171
+      },
+      "name_and_ssn_scanned": {
+        "hit": 53,
+        "total": 62
+      },
+      "driver_license_scanned": {
+        "hit": 21,
+        "total": 26
+      },
+      "login_credential_scanned": {
+        "hit": 20,
+        "total": 21
+      },
+      "phone_scanned": {
+        "hit": 45,
+        "total": 46
+      },
+      "email_scanned": {
+        "hit": 43,
+        "total": 46
+      },
+      "address_scanned": {
+        "hit": 42,
+        "total": 46
+      },
+      "financial_account_scanned": {
+        "hit": 11,
+        "total": 26
+      },
+      "medical_scanned": {
+        "hit": 14,
+        "total": 14
+      },
+      "name_only_partial_scanned": {
+        "hit": 5,
+        "total": 5
+      },
+      "passport_scanned": {
+        "hit": 13,
+        "total": 15
+      },
+      "ssn_only_partial_scanned": {
+        "hit": 5,
+        "total": 5
+      }
+    },
+    "misses": [
+      {
+        "filename": "docx_case_0020b.docx",
+        "category": "name_only_partial",
+        "planted_value": "Amy King"
+      },
+      {
+        "filename": "eml_case_0033b.eml",
+        "category": "name_only_partial",
+        "planted_value": "Mark Garcia"
+      },
+      {
+        "filename": "variant_note_0001.txt",
+        "category": "name_variant",
+        "planted_value": "R. Perez"
+      },
+      {
+        "filename": "variant_note_0009.txt",
+        "category": "name_variant",
+        "planted_value": "Hernandez, Cynthia"
+      },
+      {
+        "filename": "variant_note_0015.txt",
+        "category": "name_variant",
+        "planted_value": "T. Scott"
+      },
+      {
+        "filename": "variant_note_0018.txt",
+        "category": "name_variant",
+        "planted_value": "Mitchell, Andrew"
+      },
+      {
+        "filename": "variant_note_0021.txt",
+        "category": "name_variant",
+        "planted_value": "A. Gonzalez"
+      },
+      {
+        "filename": "variant_note_0026.txt",
+        "category": "name_variant",
+        "planted_value": "Ramirez, Benjamin"
+      },
+      {
+        "filename": "variant_note_0029.txt",
+        "category": "name_variant",
+        "planted_value": "A. King"
+      },
+      {
+        "filename": "variant_note_0031.txt",
+        "category": "name_variant",
+        "planted_value": "Chris Thompson"
+      },
+      {
+        "filename": "variant_note_0042.txt",
+        "category": "name_variant",
+        "planted_value": "R. King"
+      },
+      {
+        "filename": "secondary_0074.png",
+        "category": "email",
+        "planted_value": "rebeccap@webmail.example"
+      },
+      {
+        "filename": "secondary_0131.png",
+        "category": "email",
+        "planted_value": "rnelson@inboxnet.example"
+      },
+      {
+        "filename": "secondary_0143.png",
+        "category": "email",
+        "planted_value": "mary.jackson@inboxnet.example"
+      },
+      {
+        "filename": "scan_0001.pdf",
+        "category": "name_and_ssn_scanned",
+        "planted_value": "970-11-0206"
+      },
+      {
+        "filename": "scan_0002.pdf",
+        "category": "address_scanned",
+        "planted_value": "3561 Park Rd, Columbus, OH 84370"
+      },
+      {
+        "filename": "scan_0010.pdf",
+        "category": "driver_license_scanned",
+        "planted_value": "IL7944378"
+      },
+      {
+        "filename": "scan_0012.pdf",
+        "category": "name_and_ssn_scanned",
+        "planted_value": "914-49-4011"
+      },
+      {
+        "filename": "scan_0013.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-3655-0620-4846"
+      },
+      {
+        "filename": "scan_0015.pdf",
+        "category": "driver_license_scanned",
+        "planted_value": "TN9741223"
+      },
+      {
+        "filename": "scan_0016.pdf",
+        "category": "name_and_ssn_scanned",
+        "planted_value": "973-33-8908"
+      },
+      {
+        "filename": "scan_0023.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-2952-9207-4253"
+      },
+      {
+        "filename": "scan_0023.pdf",
+        "category": "address_scanned",
+        "planted_value": "7179 River Dr, Riverside, CA 64618"
+      },
+      {
+        "filename": "scan_0026.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-2520-4265-1161"
+      },
+      {
+        "filename": "scan_0027.pdf",
+        "category": "driver_license_scanned",
+        "planted_value": "IL9899417"
+      },
+      {
+        "filename": "scan_0029.pdf",
+        "category": "name_and_ssn_scanned",
+        "planted_value": "910-24-0819"
+      },
+      {
+        "filename": "scan_0029.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-6120-5593-2826"
+      },
+      {
+        "filename": "scan_0029.pdf",
+        "category": "phone_scanned",
+        "planted_value": "555-911-7213"
+      },
+      {
+        "filename": "scan_0029.pdf",
+        "category": "email_scanned",
+        "planted_value": "stephanie.davis@mailbox.example"
+      },
+      {
+        "filename": "scan_0029.pdf",
+        "category": "address_scanned",
+        "planted_value": "8770 Birch Ct, Columbus, OH 44441"
+      },
+      {
+        "filename": "scan_0030.pdf",
+        "category": "name_and_ssn_scanned",
+        "planted_value": "993-71-9339"
+      },
+      {
+        "filename": "scan_0031.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-1330-1756-8202"
+      },
+      {
+        "filename": "scan_0031.pdf",
+        "category": "login_credential_scanned",
+        "planted_value": "jwright@webmail.example:pw_hash_469046"
+      },
+      {
+        "filename": "scan_0031.pdf",
+        "category": "email_scanned",
+        "planted_value": "jwright@webmail.example"
+      },
+      {
+        "filename": "scan_0037.pdf",
+        "category": "passport_scanned",
+        "planted_value": "E62217045"
+      },
+      {
+        "filename": "scan_0038.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-1515-7539-2104"
+      },
+      {
+        "filename": "scan_0039.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-0751-2280-8561"
+      },
+      {
+        "filename": "scan_0043.pdf",
+        "category": "name_and_ssn_scanned",
+        "planted_value": "901-24-8193"
+      },
+      {
+        "filename": "scan_0043.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-5258-0257-9783"
+      },
+      {
+        "filename": "scan_0045.pdf",
+        "category": "name_and_ssn_scanned",
+        "planted_value": "951-22-1744"
+      },
+      {
+        "filename": "scan_0050.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-2059-9728-3794"
+      },
+      {
+        "filename": "scan_0050.pdf",
+        "category": "address_scanned",
+        "planted_value": "1683 Elm St, Arlington, VA 29183"
+      },
+      {
+        "filename": "scan_0051.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-5791-0169-9297"
+      },
+      {
+        "filename": "scan_0052.pdf",
+        "category": "name_and_ssn_scanned",
+        "planted_value": "911-26-9415"
+      },
+      {
+        "filename": "scan_0052.pdf",
+        "category": "driver_license_scanned",
+        "planted_value": "WI3601969"
+      },
+      {
+        "filename": "scan_0056.pdf",
+        "category": "name_and_ssn_scanned",
+        "planted_value": "936-12-0190"
+      },
+      {
+        "filename": "scan_0056.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-5744-4860-7194"
+      },
+      {
+        "filename": "scan_0061.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-8299-3215-7118"
+      },
+      {
+        "filename": "scan_0062.pdf",
+        "category": "passport_scanned",
+        "planted_value": "C62170303"
+      },
+      {
+        "filename": "scan_0063.pdf",
+        "category": "driver_license_scanned",
+        "planted_value": "OH2511236"
+      },
+      {
+        "filename": "scan_0063.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-3380-0530-5141"
+      },
+      {
+        "filename": "scan_0069.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-7844-3173-6757"
+      },
+      {
+        "filename": "scan_0077.pdf",
+        "category": "financial_account_scanned",
+        "planted_value": "4111-8269-5504-3977"
+      },
+      {
+        "filename": "scan_0077.pdf",
+        "category": "email_scanned",
+        "planted_value": "lhall@webmail.example"
+      }
+    ]
+  },
+  "entity_linking": {
+    "checked": 57,
+    "correct": 32,
+    "mismatches": [
+      {
+        "filename": "variant_note_0001.txt",
+        "manifest_person_id": "P0129",
+        "status": "resolution_insufficient_signal",
+        "actual_person_id": null,
+        "expected_person_id": "9343db53-d3d9-4b50-a717-5a0f613b6b7b"
+      },
+      {
+        "filename": "variant_note_0004.txt",
+        "manifest_person_id": "P0036",
+        "status": "needs_adjudication",
+        "actual_person_id": "c0b3178a-e28c-4257-aa4b-44cdb2d15df6",
+        "expected_person_id": "3284066c-d64b-449f-8c26-fda1f4da78db"
+      },
+      {
+        "filename": "variant_note_0005.txt",
+        "manifest_person_id": "P0036",
+        "status": "multi_person_skipped",
+        "actual_person_id": null,
+        "expected_person_id": "3284066c-d64b-449f-8c26-fda1f4da78db"
+      },
+      {
+        "filename": "variant_note_0006.txt",
+        "manifest_person_id": "P0043",
+        "status": "resolved",
+        "actual_person_id": "32e754a2-8a19-4d37-adeb-8b7696fccacc",
+        "expected_person_id": null
+      },
+      {
+        "filename": "variant_note_0007.txt",
+        "manifest_person_id": "P0043",
+        "status": "resolved",
+        "actual_person_id": "32e754a2-8a19-4d37-adeb-8b7696fccacc",
+        "expected_person_id": null
+      },
+      {
+        "filename": "variant_note_0015.txt",
+        "manifest_person_id": "P0118",
+        "status": "resolution_insufficient_signal",
+        "actual_person_id": null,
+        "expected_person_id": "1033a2ac-c052-4271-888e-8644e5b594e0"
+      },
+      {
+        "filename": "variant_note_0021.txt",
+        "manifest_person_id": "P0066",
+        "status": "resolution_insufficient_signal",
+        "actual_person_id": null,
+        "expected_person_id": "06fb1883-de89-469e-87e2-d63693000095"
+      },
+      {
+        "filename": "variant_note_0029.txt",
+        "manifest_person_id": "P0059",
+        "status": "resolution_insufficient_signal",
+        "actual_person_id": null,
+        "expected_person_id": null
+      },
+      {
+        "filename": "variant_note_0030.txt",
+        "manifest_person_id": "P0059",
+        "status": "resolved",
+        "actual_person_id": "b5c57230-c64c-4239-895d-6546f561f6ac",
+        "expected_person_id": null
+      },
+      {
+        "filename": "variant_note_0031.txt",
+        "manifest_person_id": "P0011",
+        "status": "resolution_insufficient_signal",
+        "actual_person_id": null,
+        "expected_person_id": "b83da243-70e4-4f16-91ae-1bc701a708a4"
+      },
+      {
+        "filename": "variant_note_0035.txt",
+        "manifest_person_id": "P0088",
+        "status": "resolved",
+        "actual_person_id": "679a0310-14ae-4c15-8124-1f6f6988d663",
+        "expected_person_id": "68f64443-28b6-4278-a4e7-4cbb937f3e97"
+      },
+      {
+        "filename": "variant_note_0038.txt",
+        "manifest_person_id": "P0137",
+        "status": "resolved",
+        "actual_person_id": "6e2f4bd0-4d6b-4aef-931c-2c703db39182",
+        "expected_person_id": "3d664e5c-4a23-429e-a5d8-85137b128b23"
+      },
+      {
+        "filename": "variant_note_0039.txt",
+        "manifest_person_id": "P0137",
+        "status": "needs_adjudication",
+        "actual_person_id": "6e2f4bd0-4d6b-4aef-931c-2c703db39182",
+        "expected_person_id": "3d664e5c-4a23-429e-a5d8-85137b128b23"
+      },
+      {
+        "filename": "variant_note_0040.txt",
+        "manifest_person_id": "P0084",
+        "status": "resolved",
+        "actual_person_id": "cf67fc1f-c41e-4568-87e7-2cf04690d0cb",
+        "expected_person_id": null
+      },
+      {
+        "filename": "variant_note_0041.txt",
+        "manifest_person_id": "P0084",
+        "status": "needs_adjudication",
+        "actual_person_id": "cf67fc1f-c41e-4568-87e7-2cf04690d0cb",
+        "expected_person_id": null
+      },
+      {
+        "filename": "variant_note_0042.txt",
+        "manifest_person_id": "P0070",
+        "status": "resolution_insufficient_signal",
+        "actual_person_id": null,
+        "expected_person_id": null
+      },
+      {
+        "filename": "variant_note_0043.txt",
+        "manifest_person_id": "P0070",
+        "status": "resolved",
+        "actual_person_id": "00386c52-e552-4b75-9b99-75286c2cfd30",
+        "expected_person_id": null
+      },
+      {
+        "filename": "variant_note_0044.txt",
+        "manifest_person_id": "P0114",
+        "status": "resolved",
+        "actual_person_id": "0d2779a8-7db0-4644-b7fd-5272ba75d30c",
+        "expected_person_id": "6532c3fa-772c-4370-9932-7e8a3ac9e06f"
+      },
+      {
+        "filename": "variant_note_0045.txt",
+        "manifest_person_id": "P0114",
+        "status": "needs_adjudication",
+        "actual_person_id": "0d2779a8-7db0-4644-b7fd-5272ba75d30c",
+        "expected_person_id": "6532c3fa-772c-4370-9932-7e8a3ac9e06f"
+      },
+      {
+        "filename": "variant_note_0046.txt",
+        "manifest_person_id": "P0012",
+        "status": "resolved",
+        "actual_person_id": "e8b4a87e-131b-459c-823c-f5059b3e5640",
+        "expected_person_id": null
+      },
+      {
+        "filename": "variant_note_0047.txt",
+        "manifest_person_id": "P0012",
+        "status": "needs_adjudication",
+        "actual_person_id": "e8b4a87e-131b-459c-823c-f5059b3e5640",
+        "expected_person_id": null
+      },
+      {
+        "filename": "variant_note_0050.txt",
+        "manifest_person_id": "P0092",
+        "status": "resolved",
+        "actual_person_id": "14868fab-bed4-4445-9ddf-73785a18162f",
+        "expected_person_id": "68f64443-28b6-4278-a4e7-4cbb937f3e97"
+      },
+      {
+        "filename": "variant_note_0051.txt",
+        "manifest_person_id": "P0092",
+        "status": "resolved",
+        "actual_person_id": "14868fab-bed4-4445-9ddf-73785a18162f",
+        "expected_person_id": "68f64443-28b6-4278-a4e7-4cbb937f3e97"
+      },
+      {
+        "filename": "variant_note_0052.txt",
+        "manifest_person_id": "P0065",
+        "status": "needs_adjudication",
+        "actual_person_id": "055813fc-5596-4a95-8a4f-59e7d054121b",
+        "expected_person_id": null
+      },
+      {
+        "filename": "variant_note_0053.txt",
+        "manifest_person_id": "P0065",
+        "status": "needs_adjudication",
+        "actual_person_id": "055813fc-5596-4a95-8a4f-59e7d054121b",
+        "expected_person_id": null
+      }
+    ]
+  },
+  "false_positives": {
+    "checked": 51,
+    "flagged": [
+      "eml_case_0002.eml",
+      "eml_case_0003.eml",
+      "docx_case_0007.docx",
+      "eml_case_0008.eml",
+      "pdf_case_0010.pdf",
+      "eml_case_0010.eml",
+      "pdf_case_0011.pdf",
+      "eml_case_0014.eml",
+      "eml_case_0016.eml",
+      "eml_case_0017.eml",
+      "eml_case_0019.eml",
+      "eml_case_0020.eml",
+      "eml_case_0024.eml",
+      "eml_case_0025.eml",
+      "eml_case_0029.eml",
+      "eml_case_0032.eml",
+      "eml_case_0034.eml",
+      "pdf_case_0035.pdf",
+      "eml_case_0035.eml",
+      "pdf_case_0039.pdf",
+      "docx_case_0039.docx",
+      "eml_case_0039.eml",
+      "eml_case_0040.eml",
+      "eml_case_0046.eml",
+      "eml_case_0047.eml",
+      "eml_case_0051.eml",
+      "eml_case_0012.eml",
+      "eml_case_0015.eml",
+      "eml_case_0033a.eml",
+      "eml_case_0033b.eml",
+      "eml_case_0045.eml"
+    ],
+    "flagged_by_type": {
+      "employee_signature": 22,
+      "template_placeholder": 9
+    },
+    "all_by_type": {
+      "employee_signature": 27,
+      "order_number_lookalike": 9,
+      "template_placeholder": 9,
+      "test_record": 6
+    }
+  },
+  "quarantine_accuracy": {
+    "checked": 17,
+    "correct": 13,
+    "mismatches": [
+      {
+        "filename": "sheet_photo_0.png",
+        "expected": "image_of_spreadsheet_unreliable_ocr",
+        "actual": "low_confidence_ocr"
+      },
+      {
+        "filename": "sheet_photo_1.png",
+        "expected": "image_of_spreadsheet_unreliable_ocr",
+        "actual": "low_confidence_ocr"
+      },
+      {
+        "filename": "sheet_photo_2.png",
+        "expected": "image_of_spreadsheet_unreliable_ocr",
+        "actual": "low_confidence_ocr"
+      },
+      {
+        "filename": "sheet_photo_3.png",
+        "expected": "image_of_spreadsheet_unreliable_ocr",
+        "actual": "low_confidence_ocr"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --dfz-gradient: linear-gradient(90deg, #f4ad0b 0%, #fc7900 55%, #e3434a 100%);
+  --dfz-orange: #fc7900;
+  --dfz-orange-hover: #e56d00;
+  --dfz-navy: #182127;
+  --dfz-radius-card: 12px;
+  --dfz-radius-button: 6px;
+  --dfz-radius-pill: 999px;
+  --dfz-font: "Inter", system-ui, -apple-system, sans-serif;
+  --dfz-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+:root, [data-theme="dark"] {
+  --dfz-bg: #14191d; --dfz-surface: #1d252b; --dfz-surface-raised: #232c33;
+  --dfz-border: #2c363d; --dfz-text: #eef1f3; --dfz-text-muted: #9aa7ae;
+  --dfz-shadow: 0 12px 24px rgba(0,0,0,0.35);
+}
+[data-theme="light"] {
+  --dfz-bg: #f6f7f8; --dfz-surface: #ffffff; --dfz-surface-raised: #ffffff;
+  --dfz-border: #e2e5e8; --dfz-text: var(--dfz-navy); --dfz-text-muted: #5b6770;
+  --dfz-shadow: 0 12px 24px rgba(24,33,39,0.1);
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: var(--dfz-font); background: var(--dfz-bg); color: var(--dfz-text); -webkit-font-smoothing: antialiased; }
+h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
+button { font-family: inherit; }

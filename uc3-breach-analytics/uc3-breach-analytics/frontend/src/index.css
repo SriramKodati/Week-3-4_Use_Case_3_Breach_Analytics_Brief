@@ -1,0 +1,20 @@
+@import "./styles/tokens.css";
+.app-shell { min-height: 100vh; display: flex; flex-direction: column; }
+.app-header { display: flex; align-items: center; justify-content: space-between; padding: 1.1rem 2rem; border-bottom: 1px solid var(--dfz-border); }
+.brand { display: flex; align-items: center; gap: 0.6rem; }
+.brand-mark { width: 20px; height: 20px; border-radius: 6px; background: var(--dfz-gradient); display: inline-block; }
+.brand-name { font-weight: 700; letter-spacing: -0.01em; color: var(--dfz-text); }
+.nav-tabs { display: flex; gap: 0.5rem; }
+.nav-tab { background: transparent; border: 1px solid var(--dfz-border); color: var(--dfz-text-muted); border-radius: var(--dfz-radius-pill); padding: 0.4rem 0.9rem; font-size: 0.85rem; font-weight: 600; cursor: pointer; }
+.nav-tab.active { color: var(--dfz-orange); border-color: var(--dfz-orange); }
+.app-main { flex: 1; display: flex; flex-direction: column; align-items: center; padding: 2.5rem 1.5rem; gap: 1.5rem; }
+.dropzone { width: 100%; max-width: 720px; border: 2px dashed var(--dfz-border); border-radius: var(--dfz-radius-card); padding: 2.5rem; text-align: center; color: var(--dfz-text-muted); cursor: pointer; }
+.queue-table { width: 100%; max-width: 900px; border-collapse: collapse; }
+.queue-table th, .queue-table td { text-align: left; padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--dfz-border); font-size: 0.9rem; }
+.queue-table th { color: var(--dfz-text-muted); font-weight: 600; text-transform: uppercase; font-size: 0.72rem; }
+.status-pill { display: inline-block; padding: 0.15rem 0.6rem; border-radius: var(--dfz-radius-pill); font-size: 0.75rem; font-weight: 600; }
+.status-queued { background: #f0f0f0; color: #555; }
+.status-processing { background: #fff4e6; color: #FC7900; }
+.status-quarantined { background: #fdeef0; color: #E3434A; }
+.status-extracted { background: #e6f7ee; color: #1a8a4a; }
+.coming-soon { color: var(--dfz-text-muted); font-size: 0.95rem; text-align: center; max-width: 500px; }

@@ -1,0 +1,93 @@
+erDiagram
+    RUN ||--o{ DOCUMENT : "processes"
+    RUN ||--o{ RUN_TRACE : "logs"
+    DOCUMENT ||--o{ EXTRACTION : "produces"
+    EXTRACTION ||--o| IDENTITY_LINK : "resolved via"
+    PERSON ||--o{ IDENTITY_LINK : "has"
+    PERSON ||--o{ FLAG : "has"
+    IDENTITY_LINK ||--o{ REVIEW_DECISION : "reviewed by"
+    FLAG ||--o{ REVIEW_DECISION : "reviewed by"
+
+    RUN {
+        uuid id PK
+        string status
+        int token_budget
+        float spend_budget_usd
+        int tokens_used_total
+        float spend_total_usd
+        timestamp started_at
+        timestamp completed_at
+    }
+
+    DOCUMENT {
+        uuid id PK
+        uuid run_id FK
+        string filename
+        string format
+        string status
+        string quarantine_reason
+        timestamp uploaded_at
+        timestamp processed_at
+    }
+
+    EXTRACTION {
+        uuid id PK
+        uuid document_id FK
+        string category
+        string raw_value
+        float confidence
+        int extraction_tier
+        text source_passage
+        timestamp created_at
+    }
+
+    PERSON {
+        uuid id PK
+        string best_known_name
+        date dob
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    IDENTITY_LINK {
+        uuid id PK
+        uuid extraction_id FK
+        uuid person_id FK
+        float link_confidence
+        string link_method
+        timestamp created_at
+    }
+
+    FLAG {
+        uuid id PK
+        uuid person_id FK
+        string category
+        boolean is_exposed
+        float confidence
+        int evidence_count
+        string review_status
+    }
+
+    REVIEW_DECISION {
+        uuid id PK
+        uuid identity_link_id FK
+        uuid flag_id FK
+        string decision_type
+        string original_value
+        string corrected_value
+        string reviewer
+        timestamp decided_at
+    }
+
+    RUN_TRACE {
+        uuid id PK
+        uuid run_id FK
+        string agent_or_component
+        string tool_call_name
+        text input_summary
+        text output_summary
+        int tokens_used
+        int latency_ms
+        float cost_usd
+        timestamp created_at
+    }

@@ -1,0 +1,2 @@
+.dfz-card { background: var(--dfz-surface); border: 1px solid var(--dfz-border); border-radius: var(--dfz-radius-card); box-shadow: var(--dfz-shadow); padding: 1.5rem; transition: transform 0.2s var(--dfz-ease), box-shadow 0.2s var(--dfz-ease); }
+.dfz-card--interactive:hover { transform: translateY(-5px); box-shadow: 0 20px 36px rgba(0,0,0,0.4); }

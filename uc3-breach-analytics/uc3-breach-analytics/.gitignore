@@ -1,0 +1,16 @@
+.env
+backend/.env
+frontend/.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+node_modules/
+dist/
+frontend/dist/
+.DS_Store
+.vscode/*
+!.vscode/extensions.json

@@ -1,0 +1,65 @@
+flowchart TB
+    corpus["Heterogeneous Corpus<br/>500+ docs, 7 formats"]:::store
+    triage["Ingestion & Triage<br/>classify, route, quarantine"]:::pipeline
+    quarantine[("Quarantine<br/>problem files + reason")]:::store
+    parse["Parsing<br/>text extraction + OCR"]:::pipeline
+    tier0["Tier 0: Deterministic Detectors<br/>regex / Luhn — free"]:::pipeline
+    tier1["Tier 1: LLM Extraction<br/>DeepSeek — cheap"]:::pipeline
+    tier2["Tier 2: Escalation<br/>Claude — low-confidence / vision fallback"]:::pipeline
+    entmatch["Deterministic Entity Match<br/>exact/fuzzy: name+DOB+SSN+address"]:::pipeline
+    confgate{"Confident match<br/>or ambiguous?"}:::pipeline
+
+    orchestrator["Orchestrator / Planner<br/>(agent — once per run)"]:::agent
+    investigator["Exception Investigator<br/>(agent — per quarantined/failed file)"]:::agent
+    adjudicator["Entity-Resolution Adjudicator<br/>(agent — ambiguous matches only)"]:::agent
+    auditor["QA Auditor<br/>(agent — post-batch sample re-verify)"]:::agent
+
+    approval{{"Human Approval Gate<br/>merges + final sign-off"}}:::review
+    reviewqueue["Review Queue<br/>low-confidence / uncertain matches"]:::review
+
+    exposure[("Exposure Table<br/>persons, flags, evidence")]:::store
+    runtraces[("Run Traces<br/>every call: tokens, latency, cost, budget")]:::store
+
+    dashboard["Dashboard UI<br/>corpus status · exposure table ·<br/>person detail · review queue · cost"]:::runtime
+    export["Export<br/>CSV / XLSX"]:::runtime
+
+    corpus --> triage
+    triage -- "problem file" --> quarantine
+    triage -- "ok" --> parse
+    quarantine -. "picked up by" .-> investigator
+    investigator -- "resolved, retry" --> parse
+    investigator -- "unresolved, escalate" --> reviewqueue
+
+    parse --> tier0
+    tier0 --> tier1
+    tier1 -- "low confidence" --> tier2
+    tier1 -- "confident" --> entmatch
+    tier2 --> entmatch
+
+    entmatch --> confgate
+    confgate -- "ambiguous" --> adjudicator
+    confgate -- "confident" --> exposure
+    adjudicator -- "merge / split decision" --> approval
+    approval -- "approved" --> exposure
+    adjudicator -. "still uncertain" .-> reviewqueue
+    reviewqueue -- "reviewer decision" --> exposure
+
+    orchestrator -. "plans & monitors" .-> triage
+    orchestrator -. "reprioritizes on failure spikes" .-> parse
+    orchestrator -. "enforces" .-> runtraces
+    auditor -. "samples & re-verifies" .-> exposure
+    auditor -- "measured error estimate" --> dashboard
+
+    investigator -.-> runtraces
+    adjudicator -.-> runtraces
+    orchestrator -.-> runtraces
+
+    exposure --> dashboard
+    exposure --> export
+    approval -- "final sign-off" --> export
+
+    classDef pipeline fill:#fff4e6,stroke:#FC7900,stroke-width:2px,color:#182127
+    classDef agent fill:#fffbe6,stroke:#F4AD0B,stroke-width:2px,color:#182127
+    classDef review fill:#fdeef0,stroke:#E3434A,stroke-width:2px,color:#182127
+    classDef store fill:#f0f0f0,stroke:#182127,stroke-width:2px,color:#182127
+    classDef runtime fill:#eef7f7,stroke:#182127,stroke-width:2px,color:#182127

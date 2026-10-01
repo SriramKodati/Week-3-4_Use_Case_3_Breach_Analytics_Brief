@@ -1,0 +1,59 @@
+filename,format,negative_type,text
+eml_case_0002.eml,eml,employee_signature,Jordan Blake
+eml_case_0003.eml,eml,employee_signature,Alex Rivera
+eml_case_0004.eml,eml,order_number_lookalike,Order confirmation #308-56-9754 has shipped to the address on file.
+eml_case_0006.eml,eml,employee_signature,Jordan Blake
+eml_case_0006.eml,eml,test_record,"TEST RECORD — John Doe, 000-00-0000, DO NOT USE IN PRODUCTION"
+pdf_case_0007.pdf,pdf,order_number_lookalike,Order confirmation #585-97-7865 has shipped to the address on file.
+docx_case_0007.docx,docx,template_placeholder,SSN: XXX-XX-XXXX  |  DOB: MM/DD/YYYY  |  Account #: [ACCOUNT NUMBER]
+eml_case_0008.eml,eml,template_placeholder,SSN: XXX-XX-XXXX  |  DOB: MM/DD/YYYY  |  Account #: [ACCOUNT NUMBER]
+pdf_case_0010.pdf,pdf,template_placeholder,SSN: XXX-XX-XXXX  |  DOB: MM/DD/YYYY  |  Account #: [ACCOUNT NUMBER]
+eml_case_0010.eml,eml,employee_signature,Morgan Ellis
+pdf_case_0011.pdf,pdf,template_placeholder,SSN: XXX-XX-XXXX  |  DOB: MM/DD/YYYY  |  Account #: [ACCOUNT NUMBER]
+eml_case_0012.eml,eml,employee_signature,Casey Nguyen
+eml_case_0013.eml,eml,employee_signature,Morgan Ellis
+eml_case_0013.eml,eml,order_number_lookalike,Order confirmation #394-11-1781 has shipped to the address on file.
+eml_case_0014.eml,eml,employee_signature,Alex Rivera
+pdf_case_0015.pdf,pdf,order_number_lookalike,Order confirmation #481-61-8274 has shipped to the address on file.
+eml_case_0015.eml,eml,employee_signature,Casey Nguyen
+eml_case_0016.eml,eml,employee_signature,Jordan Blake
+eml_case_0017.eml,eml,employee_signature,Casey Nguyen
+eml_case_0019.eml,eml,employee_signature,Jordan Blake
+eml_case_0020.eml,eml,employee_signature,Morgan Ellis
+eml_case_0021.eml,eml,order_number_lookalike,Order confirmation #463-98-5839 has shipped to the address on file.
+pdf_case_0024.pdf,pdf,order_number_lookalike,Order confirmation #613-78-4317 has shipped to the address on file.
+docx_case_0024.docx,docx,order_number_lookalike,Order confirmation #417-96-3742 has shipped to the address on file.
+eml_case_0024.eml,eml,employee_signature,Jordan Blake
+eml_case_0025.eml,eml,employee_signature,Casey Nguyen
+pdf_case_0026.pdf,pdf,order_number_lookalike,Order confirmation #207-49-2238 has shipped to the address on file.
+eml_case_0028.eml,eml,test_record,"TEST RECORD — John Doe, 000-00-0000, DO NOT USE IN PRODUCTION"
+eml_case_0029.eml,eml,employee_signature,Jordan Blake
+eml_case_0032.eml,eml,employee_signature,Alex Rivera
+eml_case_0033a.eml,eml,employee_signature,Casey Nguyen
+eml_case_0033b.eml,eml,employee_signature,Alex Rivera
+eml_case_0034.eml,eml,employee_signature,Morgan Ellis
+pdf_case_0035.pdf,pdf,template_placeholder,SSN: XXX-XX-XXXX  |  DOB: MM/DD/YYYY  |  Account #: [ACCOUNT NUMBER]
+eml_case_0035.eml,eml,employee_signature,Alex Rivera
+eml_case_0036.eml,eml,employee_signature,Morgan Ellis
+eml_case_0036.eml,eml,test_record,"TEST RECORD — John Doe, 000-00-0000, DO NOT USE IN PRODUCTION"
+pdf_case_0039.pdf,pdf,template_placeholder,SSN: XXX-XX-XXXX  |  DOB: MM/DD/YYYY  |  Account #: [ACCOUNT NUMBER]
+docx_case_0039.docx,docx,template_placeholder,SSN: XXX-XX-XXXX  |  DOB: MM/DD/YYYY  |  Account #: [ACCOUNT NUMBER]
+eml_case_0039.eml,eml,template_placeholder,SSN: XXX-XX-XXXX  |  DOB: MM/DD/YYYY  |  Account #: [ACCOUNT NUMBER]
+docx_case_0040.docx,docx,test_record,"TEST RECORD — John Doe, 000-00-0000, DO NOT USE IN PRODUCTION"
+eml_case_0040.eml,eml,employee_signature,Jordan Blake
+pdf_case_0041.pdf,pdf,order_number_lookalike,Order confirmation #450-90-8145 has shipped to the address on file.
+eml_case_0041.eml,eml,test_record,"TEST RECORD — John Doe, 000-00-0000, DO NOT USE IN PRODUCTION"
+pdf_case_0044.pdf,pdf,test_record,"TEST RECORD — John Doe, 000-00-0000, DO NOT USE IN PRODUCTION"
+eml_case_0044.eml,eml,employee_signature,Casey Nguyen
+eml_case_0044.eml,eml,test_record,"TEST RECORD — John Doe, 000-00-0000, DO NOT USE IN PRODUCTION"
+pdf_case_0045.pdf,pdf,order_number_lookalike,Order confirmation #506-12-5925 has shipped to the address on file.
+eml_case_0045.eml,eml,template_placeholder,SSN: XXX-XX-XXXX  |  DOB: MM/DD/YYYY  |  Account #: [ACCOUNT NUMBER]
+eml_case_0046.eml,eml,employee_signature,Alex Rivera
+eml_case_0046.eml,eml,template_placeholder,SSN: XXX-XX-XXXX  |  DOB: MM/DD/YYYY  |  Account #: [ACCOUNT NUMBER]
+pdf_case_0047.pdf,pdf,test_record,"TEST RECORD — John Doe, 000-00-0000, DO NOT USE IN PRODUCTION"
+eml_case_0047.eml,eml,employee_signature,Alex Rivera
+eml_case_0048.eml,eml,test_record,"TEST RECORD — John Doe, 000-00-0000, DO NOT USE IN PRODUCTION"
+eml_case_0050.eml,eml,employee_signature,Morgan Ellis
+eml_case_0050.eml,eml,test_record,"TEST RECORD — John Doe, 000-00-0000, DO NOT USE IN PRODUCTION"
+eml_case_0051.eml,eml,employee_signature,Casey Nguyen
+eml_case_0051.eml,eml,template_placeholder,SSN: XXX-XX-XXXX  |  DOB: MM/DD/YYYY  |  Account #: [ACCOUNT NUMBER]
